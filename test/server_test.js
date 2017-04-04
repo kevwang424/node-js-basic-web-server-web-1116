@@ -89,7 +89,7 @@ describe('server', () => {
         });
     });
 
-    it('GET request to /message/:id?encrypt=true returns the message encyrpted', (done) => {
+    it('GET request to /message/:id?encrypt=true returns the message encrypted', (done) => {
       request(baseUrl)
         .get('/message/1?encrypt=true')
         .expect(200)
